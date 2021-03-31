@@ -40,7 +40,7 @@
 		1F5171D32615319300514090 = {
 			isa = PBXGroup;
 			children = (
-				1F5171DE2615319400514090 /* Interactive Animations */,
+				1F5171DE2615319400514090 /* InteractiveAnimations */,
 				1F5171DD2615319400514090 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1F5171DE2615319400514090 /* Interactive Animations */ = {
+		1F5171DE2615319400514090 /* InteractiveAnimations */ = {
 			isa = PBXGroup;
 			children = (
 				1F5171DF2615319400514090 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				1F5171EA2615319500514090 /* LaunchScreen.storyboard */,
 				1F5171ED2615319500514090 /* Info.plist */,
 			);
-			path = "Interactive Animations";
+			path = InteractiveAnimations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1F5171DB2615319400514090 /* Interactive Animations */ = {
+		1F5171DB2615319400514090 /* InteractiveAnimations */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F5171F02615319500514090 /* Build configuration list for PBXNativeTarget "Interactive Animations" */;
+			buildConfigurationList = 1F5171F02615319500514090 /* Build configuration list for PBXNativeTarget "InteractiveAnimations" */;
 			buildPhases = (
 				1F5171D82615319400514090 /* Sources */,
 				1F5171D92615319400514090 /* Frameworks */,
@@ -82,7 +82,7 @@
 			);
 			dependencies = (
 			);
-			name = "Interactive Animations";
+			name = InteractiveAnimations;
 			productName = "Interactive Animations";
 			productReference = 1F5171DC2615319400514090 /* Interactive Animations.app */;
 			productType = "com.apple.product-type.application";
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1F5171D72615319300514090 /* Build configuration list for PBXProject "Interactive Animations" */;
+			buildConfigurationList = 1F5171D72615319300514090 /* Build configuration list for PBXProject "InteractiveAnimations" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1F5171DB2615319400514090 /* Interactive Animations */,
+				1F5171DB2615319400514090 /* InteractiveAnimations */,
 			);
 		};
 /* End PBXProject section */
@@ -285,13 +285,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Interactive Animations/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/InteractiveAnimations/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ricarvalho.Interactive-Animations";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ricarvalho.interactive-animations";
+				PRODUCT_NAME = "Interactive Animations";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,13 +302,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Interactive Animations/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/InteractiveAnimations/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ricarvalho.Interactive-Animations";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ricarvalho.interactive-animations";
+				PRODUCT_NAME = "Interactive Animations";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -317,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F5171D72615319300514090 /* Build configuration list for PBXProject "Interactive Animations" */ = {
+		1F5171D72615319300514090 /* Build configuration list for PBXProject "InteractiveAnimations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F5171EE2615319500514090 /* Debug */,
@@ -326,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F5171F02615319500514090 /* Build configuration list for PBXNativeTarget "Interactive Animations" */ = {
+		1F5171F02615319500514090 /* Build configuration list for PBXNativeTarget "InteractiveAnimations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F5171F12615319500514090 /* Debug */,
