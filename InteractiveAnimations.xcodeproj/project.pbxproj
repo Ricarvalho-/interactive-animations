@@ -14,6 +14,7 @@
 		1F5171EC2615319500514090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F5171EA2615319500514090 /* LaunchScreen.storyboard */; };
 		1FB657D3262CA51D00BF9155 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB657D2262CA51D00BF9155 /* BasicViewController.swift */; };
 		1FB657D5262CAEB300BF9155 /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB657D4262CAEB300BF9155 /* DrawerViewController.swift */; };
+		1FB657D7262D1AF400BF9155 /* ParallaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB657D6262D1AF400BF9155 /* ParallaxViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1F5171ED2615319500514090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FB657D2262CA51D00BF9155 /* BasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
 		1FB657D4262CAEB300BF9155 /* DrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
+		1FB657D6262D1AF400BF9155 /* ParallaxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				1F5171E52615319400514090 /* Main.storyboard */,
 				1FB657D2262CA51D00BF9155 /* BasicViewController.swift */,
 				1FB657D4262CAEB300BF9155 /* DrawerViewController.swift */,
+				1FB657D6262D1AF400BF9155 /* ParallaxViewController.swift */,
 				1F5171E82615319500514090 /* Assets.xcassets */,
 				1F5171EA2615319500514090 /* LaunchScreen.storyboard */,
 				1F5171ED2615319500514090 /* Info.plist */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FB657D7262D1AF400BF9155 /* ParallaxViewController.swift in Sources */,
 				1F5171E02615319400514090 /* AppDelegate.swift in Sources */,
 				1FB657D5262CAEB300BF9155 /* DrawerViewController.swift in Sources */,
 				1FB657D3262CA51D00BF9155 /* BasicViewController.swift in Sources */,
